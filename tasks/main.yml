@@ -1,0 +1,10 @@
+---
+# tasks file for gg
+- name: Execute a command "HI"
+  command: echo "Hi"
+- name: Execute a script
+  script: first.sh
+- name: Install apache
+  apt:
+    name: apache2
+    state: present
